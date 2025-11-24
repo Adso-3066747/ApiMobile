@@ -70,6 +70,6 @@ app.post('/login',async (req,res)=>{
         console.log(err)
     }
 })
-/*app.listen(5000,()=>{
+app.listen(5000,()=>{
     console.log("Servidor corriendo")
-})*/
+})

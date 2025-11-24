@@ -1,4 +1,4 @@
-const express=require('express')
+0const express=require('express')
 const bodyParser=require('body-parser')
 var mongoose=require('mongoose')
 const cors=require('cors')
@@ -70,6 +70,6 @@ app.post('/login',async (req,res)=>{
         console.log(err)
     }
 })
-app.listen(5000,()=>{
+/*app.listen(5000,()=>{
     console.log("Servidor corriendo")
-})
+})*/

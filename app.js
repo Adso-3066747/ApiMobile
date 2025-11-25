@@ -9,7 +9,7 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended:true}))
 
 const conect=mongoose.connection
-mongoose.connect('mongodb+srv://opm:123456789abc@cluster0.nvvlb7t.mongodb.net/')
+mongoose.connect('mongodb+srv://opm:123456789abc@cluster0.nvvlb7t.mongodb.net/test')
 conect.once('open',()=>{
     console.log("ok")
 })
